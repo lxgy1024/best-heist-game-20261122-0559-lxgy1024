@@ -1,0 +1,27 @@
+/* AMBER VAULT — page chrome around the canvas. The game itself draws on canvas. */
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; background: #0c0e16; }
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  color: #e8eaf2;
+}
+#stage { text-align: center; }
+#game {
+  display: block;
+  width: min(1280px, 100vw);
+  height: auto;
+  background: #1d2333;
+  border: 2px solid #3a3f52;
+  border-radius: 6px;
+  cursor: pointer;
+}
+#foot {
+  margin: 10px 0 0;
+  font-size: 13px;
+  color: #9aa0b5;
+  letter-spacing: 0.04em;
+}
